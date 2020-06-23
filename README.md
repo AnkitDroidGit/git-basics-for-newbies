@@ -23,7 +23,7 @@ For getting hands-on experience of the below steps, feel free to fork [this Gith
         git pull
    ```
 
-4. Make your changes on master (default) branch. I am adding new file called `name.md` and appending it with my name `Ankit Kumar`.
+4. Make your changes on master (default) branch. I am adding new file called `contributors.md` and appending it with my name `Ankit Kumar`.
 5. Add file(s) to git for tracking by git add
 
    ```bash
