@@ -2,7 +2,7 @@
 
 Working with Github (or any software development version control using Git) for the beginners
 
-Many new developers and face this problem when they start working on a project which is shared among many team member and many of them need to work together on the project.
+Many new developers face this problem when they start working on a project which is shared among many team member and many of them need to work together on the project.
 It becomes hard for newbies to create PR and adding their work to the upstream project repo.
 I am trying to make this easier for all the newbies who are going to work on the project collaboration in the team.
 By following these steps, it becomes easier to handle changes, stashing, committing, creating, and merging PR after approval.
