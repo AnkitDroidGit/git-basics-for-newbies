@@ -110,3 +110,8 @@ For getting hands-on experience of the below steps, feel free to fork [this Gith
 3.  Code and commit your changes. Bonus points if you write a [good commit message](https://chris.beams.io/posts/git-commit/): `git commit -m 'Add some suggestion'`
 4.  Push to the branch: `git push origin suggestion/that-new-suggestion`
 5.  Create a pull request for your branch 🎉
+
+### Let's learn together
+
+Also, to be notified about my new articles and stories, follow me on [Medium](https://medium.com/@ankitdeveloper), [Github](https://github.com/AnkitDroidGit), [Dev Community](https://dev.to/ankitkumar). You can find me on [LinkedIn](https://www.linkedin.com/in/kumarankitkumar/) as well.
+Cheers !!🎉
