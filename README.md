@@ -12,75 +12,82 @@ For getting hands-on experience of the below steps, feel free to fork [this Gith
 
 1. Clone project from upstream to the local repo
 
-```
-git clone git@github.com:AnkitDroidGit/git-basics-for-newbies.git
-```
+   ```bash
+        git clone git@github.com:AnkitDroidGit/git-basics-for-newbies.git
+   ```
 
 2. Open project with your favorite IDE/Code Editor
 3. Pull the latest changes from upstream if you haven't pulled changes from quite some time (think of changes merged by other members of your team)
 
-```
-git pull
-```
+   ```bash
+        git pull
+   ```
 
 4. Make your changes on master (default) branch. I am adding new file called `name.md` and appending it with my name `Ankit Kumar`.
-5. Add file(s) to git for tracking by `git add command`
+5. Add file(s) to git for tracking by git add
 
-```
-git add name # this comamnd adds the one file at a time.
-```
+   ```bash
+        git add name
+   ```
 
-You can add all files by running below command
+   You can add all files by running below command
 
-```
-git add .
-```
+   ```bash
+        git add .
+   ```
 
 6. Check differences by running following command.
 
-```
-git diff
-```
+   ```bash
+        git diff
+   ```
 
 7. Now suppose someone from your teams has already added and merged his changes to master branch. If you are going to commit and push your changes without synching repo with upstream, you might get conflicts that becomes hard to resolve later in case of many conflicts.
-   Its better to sync your local repo with upstream.
+   Its great idea to sync your local repo with upstream.
    We will do it here by below commands.
+
    - First stash your changes. Stashing saves your working directory and index state WIP on master: with latest commit
-   ```
-   gut stash
-   ```
+
+     ```bash
+         git stash
+     ```
+
    - Run git pull for latest changes from upstream branch, if any.
-   ```
-   git pull
-   ```
+
+     ```bash
+         git pull
+     ```
+
    - Apply your stashed change to active changelist or default changelist.
-   ```
-   git stash apply
-   ```
+
+     ```bash
+         git stash apply
+     ```
+
 8. Check your difference again by running git diff
 
-```
-git diff
-```
+   ```bash
+       git diff
+   ```
 
 9. Resolve conflicts if any. Resolving conflicts now is easier compared to the time of many many conflicts at the time of creating PR without synching.
 10. Now, add commit message
 
-```
-git commit - m "added my name in name.md"
-```
+    ```bash
+        git commit - m "added my name in contributors.md"
+    ```
 
 11. Checkout to new branch
 
-```
-git checkout -b addedName
-```
+    ```bash
+        git checkout -b addedName
+    ```
 
 12. Push your changes to newly checked out branch. It will create a new branch on upstream with same name your have checked out with.
 
-```
-git push --set-upstream origin addedName
-```
+    ```bash
+        git push --set-upstream origin addedName
+    ```
 
 13. Visit Github (or any software development version control using Git) repo on broswer.
     Click on `compare and pull request`,
