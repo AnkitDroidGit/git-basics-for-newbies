@@ -102,3 +102,11 @@ For getting hands-on experience of the below steps, feel free to fork [this Gith
     Visit your branch and merge your branch.
 
 16. On you local repo, pull master again before macking any other changes, follow the steps again.
+
+### How to contribute
+
+1.  Fork the project & clone locally and mentioned above.
+2.  Create a branch, naming it either a suggetion: `git checkout -b suggetion/that-new-suggetion`
+3.  Code and commit your changes. Bonus points if you write a [good commit message](https://chris.beams.io/posts/git-commit/): `git commit -m 'Add some suggetion'`
+4.  Push to the branch: `git push origin suggetion/that-new-suggetion`
+5.  Create a pull request for your branch 🎉
