@@ -57,4 +57,41 @@ git diff
    ```
    git stash apply
    ```
-   
+8. Check your difference again by running git diff
+
+```
+git diff
+```
+
+9. Resolve conflicts if any. Resolving conflicts now is easier compared to the time of many many conflicts at the time of creating PR without synching.
+10. Now, add commit message
+
+```
+git commit - m "added my name in name.md"
+```
+
+11. Checkout to new branch
+
+```
+git checkout -b addedName
+```
+
+12. Push your changes to newly checked out branch. It will create a new branch on upstream with same name your have checked out with.
+
+```
+git push --set-upstream origin addedName
+```
+
+13. Visit Github (or any software development version control using Git) repo on broswer.
+    Click on `compare and pull request`,
+    Write you PR name with appropriate comments.
+    Add `reviewers` to request team members to review your PR.
+
+14. Finally click on `create pull request`
+    You have done your work already.
+    Wait for the reviewer to review
+
+15. Once PR is approved by the reviewer(s).
+    Visit your branch and merge your branch.
+
+16. On you local repo, pull master again before macking any other changes, follow the steps again.
